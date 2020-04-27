@@ -45,7 +45,7 @@ Each of these geoms is two dimensional and requires both `x` and `y` aesthetics.
     but parameterised by the center of the rect and its size, `x`, `y`, 
     `width` and `height`. `geom_raster()` is a fast special case of 
     `geom_tile()` used when all the tiles are the same size.
-    \index{Image plot} \index{Level plot} \indexf{geom\_tile}. 
+    \index{Image plot} \index{Level plot} \indexf{geom\_tile} 
     \indexf{geom\_rect} \indexf{geom\_raster}
 
 Each geom is shown in the code below. Observe the different axis ranges for the bar, area and tile plots: these geoms take up space outside the range of the data, and so push the axes out.
